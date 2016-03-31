@@ -12,9 +12,6 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>main1.cpp</itemPath>
-      <itemPath>main2.cpp</itemPath>
-      <itemPath>main3.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -38,12 +35,6 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="main1.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="main2.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="main3.cpp" ex="false" tool="1" flavor2="0">
-      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -65,12 +56,6 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="main1.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="main2.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="main3.cpp" ex="false" tool="1" flavor2="0">
-      </item>
     </conf>
   </confs>
 </configurationDescriptor>
