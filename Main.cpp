@@ -26,6 +26,7 @@ int main()
 	//xMemoryManagerFinal::eliminar(1,miCarro1);
 	Carro* miCarro4 = new Carro();
 	Perro* miPerro1 = new Perro();
+	cout<<miPerro1<<endl;
 	Perro* miPerro2 = new Perro();
 	Perro* miPerro3 = new Perro();
 	Perro* miPerro4 = new Perro();//Aqui se acaba la memoria

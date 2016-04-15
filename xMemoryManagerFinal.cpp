@@ -110,10 +110,11 @@ void* xMemoryManagerFinal::xCalloc(int cantidad)
 			}
 		else
 		{
+			dir=ListaMemoria.ultimo->info.final+1;
 			contador++;
 			ListaMemoria.meter(ListaMemoria.ultimo->info.final+1,ListaMemoria.ultimo->info.final+cantidad+1,cantidad,contador);
 			mostrarUltimo(cantidad);
-			dir=ListaMemoria.ultimo->info.final+1;
+
 		}
 
 	}
