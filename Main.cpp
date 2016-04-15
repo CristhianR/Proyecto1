@@ -29,7 +29,7 @@ int main()
 	cout<<miPerro1<<endl;
 	Perro* miPerro2 = new Perro();
 	Perro* miPerro3 = new Perro();
-	Perro* miPerro4 = new Perro();//Aqui se acaba la memoria
+	Perro* miPerro4 = new Perro();//Aquí se acaba la memoria
 
 
 
